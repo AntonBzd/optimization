@@ -9,6 +9,15 @@ This repository contains implementations of optimization techniques, including *
 
 ---
 
+## 📝 Related Articles
+
+Check out my articles on Medium that provide deeper insights into these topics:
+
+- [Quantile Regression with Linear Programming](https://medium.com/@antobezard/quantile-regression-with-linear-programming-2305d613cb5b) — Explore the nuances of quantile regression and see the step-by-step implementation.
+- [Solving the Optimal Transport Problem with Linear Programming and the Sinkhorn Algorithm](https://medium.com/@antobezard/solving-the-optimal-transport-problem-with-linear-programming-and-the-sinkhorn-algorithm-a226a6baab6f) — Dive into the optimal transport problem, comparing different approaches.
+
+---
+
 ## 🚀 Quantile Regression
 
 ### 📌 Overview
