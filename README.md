@@ -2,14 +2,14 @@
 
 This repository contains implementations of optimization techniques, including **Quantile Regression** and **Optimal Transport Problem**, using Python and **CVXPY** for convex optimization.
 
-## 📂 Contents
+## Contents
 
 - **Quantile Regression** – Solving quantile regression as a linear programming problem.
 - **Optimal Transport Problem** – Solving the optimal transport problem using linear programming and Sinkhorn algorithm.
 
 ---
 
-## 📝 Related Articles
+## Related Articles
 
 Check out my articles on Medium that provide deeper insights into these topics:
 
@@ -18,38 +18,38 @@ Check out my articles on Medium that provide deeper insights into these topics:
 
 ---
 
-## 🚀 Quantile Regression
+## Quantile Regression
 
-### 📌 Overview
+### Overview
 Quantile regression is an extension of linear regression that estimates the conditional quantile function instead of the mean. It is particularly useful when the relationship between variables is not uniform across the distribution.
 
-### 🛠️ Implementation Details
+### Implementation Details
 - Uses **CVXPY** to frame the problem as a linear program.
 - Reads dataset (`quantile-regression-data.csv`) containing `x` and `y` values.
 - Constructs constraint matrices and optimizes for different quantiles.
 
-### 📜 Code Highlights
+### Code Highlights
 - Formulation of the **constraint matrix** for quantile regression.
 - Use of **absolute deviation loss** instead of mean squared error.
 - Solving the optimization problem using **cvxpy**.
 
-### 📈 Expected Output
+### Expected Output
 - Regression coefficients for different quantile levels.
 - Plots comparing the standard regression line with quantile regression lines.
 
 ---
 
-## 🚀 Optimal Transport Problem
+## Optimal Transport Problem
 
-### 📌 Overview
+### Overview
 The **Optimal Transport Problem** (Monge-Kantorovich problem) is a fundamental problem in optimization and probability theory, describing how to optimally move mass from one distribution to another with minimal cost.
 
-### 🛠️ Implementation Details
+### Implementation Details
 - Two approaches:
   1. **Linear Programming (LP) Solution** – Solves via standard optimization techniques.
   2. **Sinkhorn Algorithm** – Uses entropy regularization for fast computation.
 
-### 📜 Code Highlights
+### Code Highlights
 - **Linear programming approach:**
   ```python
   # Solve using linear programming (C: cost matrix, s: source distribution, d: target distribution)
@@ -61,14 +61,14 @@ The **Optimal Transport Problem** (Monge-Kantorovich problem) is a fundamental p
   P_sinkhorn, cost_sinkhorn, execution_time_sinkhorn = Sinkhorn_solver(C, s, d, epsilon=0.1, accuracy=0.01)
   ```
   
-### 📈 Expected Output
+### Expected Output
 - Optimal transport matrix `P`.
 - Minimal transport cost.
 - Computation time comparison between LP and Sinkhorn method.
 
 ---
 
-## 📌 Dependencies
+## Dependencies
 
 Install required libraries using:
 
@@ -78,7 +78,7 @@ pip install numpy pandas cvxpy matplotlib
 
 ---
 
-## 🔥 Author & Contact
-👤 **Antonin**  
+## Author & Contact
+**Antonin**  
 
 ---
