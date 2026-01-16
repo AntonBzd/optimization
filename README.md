@@ -79,6 +79,7 @@ pip install numpy pandas cvxpy matplotlib
 ---
 
 ## Author & Contact
-**Antonin**  
+**Antonin Bezard**  
+Reach me via [LinkedIn](https://www.linkedin.com/in/antonin-bezard-a11511177/)
 
 ---
